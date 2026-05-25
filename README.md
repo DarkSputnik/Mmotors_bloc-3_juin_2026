@@ -4,12 +4,14 @@
 
 M-Motors est une entreprise qui vend des voitures d'occasion. Le stie ajoute un service de location longue durée avec option d'achat, tout en conservant le parcours d'achat existant. L'application permet aux clients de rechercher un véhicule, de créer un compte, de déposer un dossier dématérialisé avec documents, puis de suivre son avancement. Le back-office permet aux administrateurs d'ajouter des véhicules, de les basculer entre vente et location, et de valider ou refuser les dossiers.
 
+ATTENTION LE SITE EST UN PEU LENT AVEC QUELQUES SECONDES DE LATENCE, POUR LES CONNEXIONS, RESERVATION, ETC.
+
 ## Accès rapide
 
-| Description | Valeur |
-| Lien Git frontend | A renseigner après dépôt public GitHub |
-| Lien Git backend | A renseigner après dépôt public GitHub |
-| Lien application | A renseigner après déploiement Render/Railway/Heroku |
+| Lien Git frontend | https://github.com/DarkSputnik/Mmotors_bloc-3_juin_2026/tree/main/frontend |
+| Lien Git backend | https://github.com/DarkSputnik/Mmotors_bloc-3_juin_2026/tree/main/backend |
+| Lien application | https://mmotors-bloc-3-juin-2026.vercel.app/ |
+| Lien API backend | https://mmotors-bloc-3-juin-2026-1.onrender.com |
 | Login admin | adminLocal@Motors |
 | Mot de passe admin | AdminMot1! |
 | Login user | userLocal@Motors |
