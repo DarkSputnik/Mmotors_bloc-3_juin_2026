@@ -1,8 +1,6 @@
 # Déploiement cloud
 
-## Important
-
-Replit sert uniquement à visualiser rapidement le rendu. Le lien remis aux examinateurs doit être un lien cloud public, par exemple Render, Railway ou Heroku.
+Déploiement via Heroku.
 
 ## Option recommandée : Render
 

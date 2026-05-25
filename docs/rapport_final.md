@@ -56,7 +56,7 @@ L'application expose `/health`, journalise les requêtes et propose `/health/ale
 
 ## Déploiement
 
-Le déploiement final doit être réalisé sur Render, Railway, Heroku ou équivalent. Le lien Replit ne doit pas être utilisé comme lien final d'examen.
+Le déploiement final doit être réalisé sur Heroku. 
 
 ## Améliorations possibles
 
