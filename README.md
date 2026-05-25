@@ -12,6 +12,8 @@ ATTENTION LE SITE EST UN PEU LENT AVEC QUELQUES SECONDES DE LATENCE, POUR LES CO
 | Lien Git backend | https://github.com/DarkSputnik/Mmotors_bloc-3_juin_2026/tree/main/backend |
 | Lien application | https://mmotors-bloc-3-juin-2026.vercel.app/ |
 | Lien API backend | https://mmotors-bloc-3-juin-2026-1.onrender.com |
+| Lien Healthcheck Backend | https://mmotors-bloc-3-juin-2026-1.onrender.com/health |
+
 | Login admin | adminLocal@Motors |
 | Mot de passe admin | AdminMot1! |
 | Login user | userLocal@Motors |
