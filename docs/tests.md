@@ -232,3 +232,61 @@ Vérifications :
 
 Statut :
 VALIDÉ
+
+---
+
+## Test 13 — Administration des dossiers
+
+Commande :
+pytest tests/test_admin.py -v
+
+Résultat :
+4 passed
+
+Vérifications :
+- validation d’un dossier par admin
+- consultation des dossiers par admin
+- refus d’accès admin à un simple utilisateur
+- bascule véhicule vente/location
+
+Statut :
+VALIDÉ
+
+---
+
+## Rapport de couverture backend
+
+Commande :
+pytest --cov=app --cov-report=term-missing
+
+Résultat :
+19 tests passed
+
+Couverture totale :
+92 %
+
+Analyse :
+La couverture dépasse l’objectif de 80 % demandé. Les modules critiques sont couverts : authentification, véhicules, dossiers, administration, sécurité et healthcheck.
+
+Warnings :
+Des avertissements de dépréciation liés à python-jose apparaissent avec Python 3.13. Ils ne bloquent pas l’exécution des tests.
+
+---
+
+## Test 14 — Intégration frontend / backend catalogue
+
+Test :
+Affichage de la page véhicules depuis le frontend React.
+
+URL :
+http://localhost:5173/search
+
+Résultat :
+VALIDÉ
+
+Vérifications :
+- le frontend démarre avec Vite ;
+- l’API FastAPI est appelée correctement ;
+- les véhicules sont affichés ;
+- les modes achat/location sont distingués ;
+- les erreurs “Failed to fetch” disparaissent quand le backend est lancé.
