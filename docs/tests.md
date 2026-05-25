@@ -167,3 +167,68 @@ Vérifications :
 Statut :
 VALIDÉ
 
+## Test 9 — Dépôt de dossier avec document
+
+Commande :
+pytest tests/test_applications.py -v
+
+Résultat :
+PASSED
+
+Vérifications :
+- création dossier authentifié
+- document PDF accepté
+- statut initial pending
+
+Statut :
+VALIDÉ
+
+---
+
+## Test 10 — Suivi des dossiers utilisateur
+
+Commande :
+pytest tests/test_applications.py -v
+
+Résultat :
+PASSED
+
+Vérifications :
+- récupération des dossiers du client connecté
+
+Statut :
+VALIDÉ
+
+---
+
+## Test 11 — Accès dossier sans authentification
+
+Commande :
+pytest tests/test_applications.py -v
+
+Résultat :
+PASSED
+
+Vérifications :
+- accès refusé sans token
+- réponse 401
+
+Statut :
+VALIDÉ
+
+---
+
+## Test 12 — Cohérence type dossier / véhicule
+
+Commande :
+pytest tests/test_applications.py -v
+
+Résultat :
+PASSED
+
+Vérifications :
+- un dossier location ne peut pas être créé sur un véhicule en vente
+- réponse 400
+
+Statut :
+VALIDÉ
