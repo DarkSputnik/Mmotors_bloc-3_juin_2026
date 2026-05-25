@@ -1,15 +1,12 @@
-# M-Motors - Location longue durée avec option d'achat
+# M-Motors - Location/achat voitures
 
 ## Contexte
 
-M-Motors est un acteur national de la vente de véhicules d'occasion. Le projet ajoute un service de location longue durée avec option d'achat, tout en conservant le parcours d'achat existant.
-
-L'application permet aux clients de rechercher un véhicule, de créer un compte, de déposer un dossier dématérialisé avec documents, puis de suivre son avancement. Le back-office permet aux administrateurs d'ajouter des véhicules, de les basculer entre vente et location, et de valider ou refuser les dossiers.
+M-Motors est une entreprise qui vend des voitures d'occasion. Le stie ajoute un service de location longue durée avec option d'achat, tout en conservant le parcours d'achat existant. L'application permet aux clients de rechercher un véhicule, de créer un compte, de déposer un dossier dématérialisé avec documents, puis de suivre son avancement. Le back-office permet aux administrateurs d'ajouter des véhicules, de les basculer entre vente et location, et de valider ou refuser les dossiers.
 
 ## Accès rapide
 
 | Description | Valeur |
-| --- | --- |
 | Lien Git frontend | A renseigner après dépôt public GitHub |
 | Lien Git backend | A renseigner après dépôt public GitHub |
 | Lien application | A renseigner après déploiement Render/Railway/Heroku |
@@ -49,13 +46,13 @@ URLs locales :
 
 ```mermaid
 flowchart TD
-    A["React + Vite"] --> B["API FastAPI"]
-    B --> C["SQLite en développement"]
-    C --> D["PostgreSQL cible cloud"]
-    B --> E["Logs + healthcheck + alerting simulé"]
+    A["React + Vite"] ==> B["API FastAPI"]
+    B ==> C["SQLite en développement"]
+    C ==> D["PostgreSQL cible cloud"]
+    B ==> E["Logs + healthcheck + alerting simulé"]
 ```
 
-Le projet reste volontairement simple : pas de microservices, pas de paiement, pas de file de messages. Cette architecture correspond à un premier rendu solide, maintenable et corrigeable dans le cadre d'un examen de 10 heures.
+Le projet reste volontairement simple : pas de microservices, pas de paiement, pas de file de messages. Cette architecture privilégie la simplicité, la maintenabilité et une évolution progressive vers un déploiement cloud.
 
 ## Tests
 
@@ -96,7 +93,7 @@ Les tests couvrent les comportements critiques : authentification, inscription, 
 
 ## Déploiement
 
-Le rendu final doit pointer vers un vrai déploiement cloud, par exemple Render, Railway ou Heroku. Replit peut uniquement servir à visualiser rapidement l'application.
+Le projet est conçu pour être déployé sur une plateforme cloud compatible, par exemple Heroku.
 
 Variables principales :
 
