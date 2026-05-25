@@ -290,3 +290,17 @@ Vérifications :
 - les véhicules sont affichés ;
 - les modes achat/location sont distingués ;
 - les erreurs “Failed to fetch” disparaissent quand le backend est lancé.
+
+## Test 15 — Workflow complet client / administration
+
+Résultat :
+VALIDÉ
+
+Vérifications :
+- connexion utilisateur
+- dépôt dossier
+- upload document
+- suivi dossier client
+- connexion admin
+- validation dossier
+- commentaire visible côté client
