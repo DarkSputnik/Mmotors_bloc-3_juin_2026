@@ -10,24 +10,24 @@ PostgreSQL managé sur Render, Railway, Heroku ou équivalent.
 
 ## Étapes de migration
 
-1. Créer une base PostgreSQL dans le cloud.
-2. Récupérer l'URL de connexion.
-3. Définir la variable d'environnement :
+Créer une base PostgreSQL dans le cloud.
+Récupérer l'URL de connexion.
+Définir la variable d'environnement :
 
 ```bash
 DATABASE_URL=postgresql://user:password@host:5432/database
 ```
 
-4. Installer le driver PostgreSQL si nécessaire :
+Installer le driver PostgreSQL si nécessaire :
 
 ```bash
 pip install psycopg2-binary
 ```
 
-5. Ajouter `psycopg2-binary` dans `backend/requirements.txt`.
-6. Démarrer l'API : les tables sont créées automatiquement au démarrage.
-7. Exécuter le seed pour créer les comptes de démonstration.
-8. Importer les données existantes si nécessaire.
+Ajouter `psycopg2-binary` dans `backend/requirements.txt`.
+Démarrer l'API : les tables sont créées automatiquement au démarrage.
+Exécuter le seed pour créer les comptes de démonstration.
+Importer les données existantes si nécessaire.
 
 ## Migration des données
 
