@@ -4,7 +4,7 @@ Date :
 25/05/2026
 
 Objectif :
-Valider le fonctionnement du backend avant intégration frontend.
+Valider le fonctionnement du backend avant intégration frontend. J'ai oublié de créer un certains de commits pour certains des tests.
 
 ---
 
