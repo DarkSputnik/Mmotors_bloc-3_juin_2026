@@ -8,34 +8,16 @@ Le site ajoute un service de location longue durée avec option d’achat tout e
 
 L’application permet aux clients :
 
-- de rechercher un véhicule ;
-- de créer un compte ;
-- de déposer un dossier dématérialisé avec documents ;
-- de suivre son avancement depuis leur espace client.
+de rechercher un véhicule ;
+de créer un compte ;
+déposer un dossier dématérialisé avec documents ;
+suivre son avancement depuis leur espace client.
 
 Le back-office permet aux administrateurs :
 
-- d’ajouter des véhicules ;
-- de basculer un véhicule entre vente et location ;
-- de valider ou refuser les dossiers.
-
----
-
-## Accès rapide
-
-| Description | Valeur |
-|---|---|
-| Lien Git frontend | À compléter après publication |
-| Lien Git backend | À compléter après publication |
-| Lien application | À compléter après déploiement |
-| Login admin | adminLocal@Motors |
-| Mot de passe admin | AdminMot1! |
-| Login user | userLocal@Motors |
-| Mot de passe user | UserMot1! |
-
----
-
-## Installation
+d’ajouter des véhicules ;
+  de basculer un véhicule entre vente et location ;
+  de valider ou refuser les dossiers.
 
 ### Backend
 
@@ -59,10 +41,10 @@ npm run dev
 
 ## URLs locales
 
-- Frontend : `http://localhost:5173`
-- Backend : `http://localhost:8000`
-- Documentation API : `http://localhost:8000/docs`
-- Santé API : `http://localhost:8000/health`
+Frontend : `http://localhost:5173`
+Backend : `http://localhost:8000`
+Documentation API : `http://localhost:8000/docs`
+Santé API : `http://localhost:8000/health`
 
 ---
 
@@ -121,16 +103,16 @@ Résultats observés :
 
 Les tests couvrent :
 
-- authentification ;
-- inscription ;
-- erreurs de connexion ;
-- recherche véhicule ;
-- filtres achat/location ;
-- dépôt de dossier ;
-- suivi de dossier ;
-- droits administrateur ;
-- validation des dossiers ;
-- endpoint de santé.
+authentification 
+inscription 
+erreurs de connexion 
+recherche véhicule
+filtres achat/location
+dépôt de dossier 
+suivi de dossier 
+droits administrateur
+validation des dossiers 
+endpoint de santé
 
 ---
 
@@ -138,15 +120,15 @@ Les tests couvrent :
 
 Mesures mises en place :
 
-- authentification JWT Bearer ;
-- hash des mots de passe avec bcrypt ;
-- rôles `user` et `admin` ;
-- validation des entrées avec Pydantic ;
-- contrôle d’accès sur les routes administrateur ;
-- formats de documents limités ;
-- variables d’environnement pour les secrets ;
-- journalisation applicative ;
-- endpoint de supervision.
+authentification JWT Bearer
+hash des mots de passe avec bcrypt
+rôles `user` et `admin
+validation des entrées avec Pydantic
+contrôle d’accès sur les routes administrateur
+formats de documents limités
+variables d’environnement pour les secrets
+journalisation applicative
+endpoint de supervision
 
 ---
 
@@ -154,20 +136,14 @@ Mesures mises en place :
 
 Surveillance applicative :
 
-- `GET /health` vérifie l’état de l’API ;
-- `POST /health/alert-test` permet de tester le mécanisme d’alerte ;
-- journalisation des requêtes :
-  - méthode ;
-  - chemin ;
-  - statut ;
-  - durée.
+GET /health` vérifie l’état de l’API
+`POST /health/alert-test` permet de tester le mécanisme d’aleret
+journalisation des requêtes :
+  méthode
+  chemin
+  statut
+durée
 
-Objectifs :
-
-- RPO : **15 min**
-- RTO : **1 heure**
-
----
 
 ## Déploiement
 
@@ -192,22 +168,22 @@ docs/deploiement.md
 
 ### Client
 
-- recherche de véhicules ;
-- filtre achat/location ;
-- création de compte ;
-- dépôt de dossier ;
-- téléversement de documents ;
-- suivi du statut.
+recherche de véhicules
+filtre achat/location
+création de compte
+dépôt de dossier
+téléversement de documents
+suivi du statut
 
 ### Administrateur
 
-- ajout de véhicules ;
-- ajout location ;
-- ajout vente ;
-- bascule vente/location ;
-- consultation des dossiers ;
-- validation ;
-- refus avec commentaire.
+ajout de véhicules 
+ajout location 
+ajout vente 
+bascule vente/location 
+consultation des dossiers 
+validation 
+refus avec commentaire
 
 ---
 
@@ -215,12 +191,12 @@ docs/deploiement.md
 
 Captures à intégrer au dossier final :
 
-- recherche véhicules ;
-- dépôt dossier ;
-- suivi client ;
-- administration véhicules ;
-- administration dossiers ;
-- endpoint `/health`.
+recherche véhicules 
+dépôt dossier 
+suivi client 
+administration véhicules 
+administration dossiers
+endpoint `/health
 
 Dossier :
 
