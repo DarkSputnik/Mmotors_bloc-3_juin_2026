@@ -3,10 +3,13 @@
 ## Tableau de synthèse
 
 | Description | Valeur |
-| --- | --- |
-| Lien Git frontend | A renseigner |
-| Lien Git backend | A renseigner |
-| Lien application | A renseigner |
+
+| Lien Git frontend | https://github.com/DarkSputnik/Mmotors_bloc-3_juin_2026/tree/main/frontend |
+| Lien Git backend | https://github.com/DarkSputnik/Mmotors_bloc-3_juin_2026/tree/main/backend |
+| Lien application | https://mmotors-bloc-3-juin-2026.vercel.app/ |
+| Lien API backend | https://mmotors-bloc-3-juin-2026-1.onrender.com |
+| Lien Healthcheck Backend | https://mmotors-bloc-3-juin-2026-1.onrender.com/health |
+
 | Login admin | adminLocal@Motors |
 | Mot de passe admin | AdminMot1! |
 | Login user | userLocal@Motors |
