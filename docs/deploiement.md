@@ -1,6 +1,6 @@
 # Déploiement cloud
 
-Déploiement via Heroku.
+Déploiement via Render et Vercel.
 
 ## Option recommandée : Render
 
