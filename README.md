@@ -97,7 +97,7 @@ Les tests couvrent les comportements critiques : authentification, inscription, 
 
 ## Déploiement
 
-Le projet est conçu pour être déployé sur une plateforme cloud compatible, par exemple Heroku.
+Le projet est conçu pour être déployé sur une plateforme cloud compatible Vercel et Render.
 
 Variables principales :
 
